@@ -1,0 +1,225 @@
+body{
+    background-color: #292d7b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: #e97d20;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #319fff;
+}
+
+p{
+    color: white;
+}
+
+ul,a,h3{
+    color: white;
+}
+
+#description{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+#header_top{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#info{
+    margin-left: 10px;
+}
+
+#liste_competence{
+    display: flex;
+}
+
+#liste_competence ul{
+    margin-right: 60px;
+}
+
+#liste_competence li{
+    width: 150px;
+}
+
+#liste_competence img{
+    margin-right: 10px;
+}
+
+#chevron{
+    position:fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+
+#boutons{
+    text-align: center;
+    margin-top: 15px;
+    margin-top: 30px;
+}
+
+#img_perso{
+    border-radius: 70%;
+}
+
+button{
+    background-color: #e97d20;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    border: 0px;
+    font-size: 1.3rem;
+}
+
+button:hover{
+    width: 250px;
+    color: #292d7b;
+}
+
+.title{
+    letter-spacing: 8px;
+}
+
+ul,p{
+    font-size: 1.2rem;
+}
+
+
+li{
+    line-height: 30px;
+}
+
+#formation a:hover, #experience a:hover{
+    color: #e97d20;
+}
+
+#liste_competence ul{
+    list-style-type: none;
+}
+
+#icon_jquery{
+    width:15%;
+}
+
+#formation, #competences, #experience{
+    margin-top: 100px;
+}
+
+#formation .title, #competences .title, #experience .title{
+    margin-left: 50px;
+}
+
+#formation ul, #competences ul, #experience ul {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    #liste_competence{
+        flex-wrap: wrap;
+    }
+
+    #header_top{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #description{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+
+    #formation .title, #competences .title, #experience .title{
+        margin-left: 15px;
+    }
+    
+    #formation ul, #competences ul, #experience ul {
+        margin-left: 10px;
+    }
+
+    #info{
+        text-align: center;
+    }
+
+    #img_perso{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button{
+        margin-bottom: 10px;
+        width: 200px;
+    }
+
+    #boutons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #liste_competence{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #formation .title, #competences .title, #experience .title{
+        margin-left: 15px;
+    }
+    
+    #formation ul, #competences ul, #experience ul {
+        margin-left: 10px;
+    }
+
+    #header_top{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #description{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+
+    #info{
+        text-align: center;
+    }
+
+    #img_perso{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button{
+        margin-bottom: 10px;
+        width: 200px;
+    }
+
+    #boutons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
